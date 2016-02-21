@@ -1,0 +1,41 @@
+h1.header {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 6em;
+    margin-bottom: 0px;
+}
+
+h2.header {
+    margin-top: 0px;
+    font-family: "Merriweather";
+    font-size: 3.5em;
+}
+
+h2.articleTitle {
+    margin-top: 0px;
+    font-weight: 700;
+    font-family: "Merriweather";
+}
+
+p.date {
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 300;
+}
+
+p.description {
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.headerBlock {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
